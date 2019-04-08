@@ -1,0 +1,13 @@
+Group:
+Patrick Hannagan
+JT Timon
+
+App Idea: Cocktail Recipie Suggestions
+User selects ingredients they have.
+App displays cocktails that can be made given the ingredients and gives recipies for them. 
+
+Possible Features:
+-Scaling ingredients for number of servings
+-Approximate strength of cocktails
+-Categories
+-User created recipies
