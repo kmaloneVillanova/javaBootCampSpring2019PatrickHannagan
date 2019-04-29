@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".IngredientList">
+    tools:context=".IngredientList"
+    android:orientation="vertical">
 
     <ListView
         android:id="@+id/listOfIngredients"
@@ -14,4 +15,14 @@
         android:choiceMode="multipleChoice">
     </ListView>
 
-</LinearLayout>
+    <Button
+        android:id="@+id/return_selected_ingredients"
+        android:text="Save"
+        android:onClick="returnIngredients"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
