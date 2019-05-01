@@ -1,9 +1,231 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".DisplayRecipe">
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:id="@+id/RecipeName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="6dp"
+        android:text="Recipe Name"
+        android:textSize="24sp"
+        android:textColor="@color/colorSecondaryText"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="6dp"
+        android:text="Ingredients:"
+        android:textSize="20sp"
+        android:textColor="@color/colorSecondaryText"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/IngredientsUsed"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="6dp"
+            android:text="Ingredient 1"
+            android:textSize="18sp"
+            android:textColor="@color/colorSecondaryText"
+            />
+
+        <TextView
+            android:id="@+id/IngredientAmounts"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="6dp"
+            android:text="XX Oz"
+            android:textSize="18sp"
+            android:textColor="@color/colorSecondaryText"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/IngredientsUsed2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="6dp"
+            android:text="Ingredient 2"
+            android:textSize="18sp"
+            android:textColor="@color/colorSecondaryText"
+            />
+
+        <TextView
+            android:id="@+id/IngredientAmounts2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="6dp"
+            android:text="2XX Oz"
+            android:textSize="18sp"
+            android:textColor="@color/colorSecondaryText"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/IngredientsUsed3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="6dp"
+            android:text="Ingredient 3"
+            android:textSize="18sp"
+            android:textColor="@color/colorSecondaryText"
+            />
+
+        <TextView
+            android:id="@+id/IngredientAmounts3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="6dp"
+            android:text="3XX Oz"
+            android:textSize="18sp"
+            android:textColor="@color/colorSecondaryText"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/IngredientsUsed4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="6dp"
+            android:text="Ingredient 4"
+            android:textSize="18sp"
+            android:textColor="@color/colorSecondaryText"
+            />
+
+        <TextView
+            android:id="@+id/IngredientAmounts4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="6dp"
+            android:text="4XX Oz"
+            android:textSize="18sp"
+            android:textColor="@color/colorSecondaryText"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/IngredientsUsed5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="6dp"
+            android:text="Ingredient 5"
+            android:textSize="18sp"
+            android:textColor="@color/colorSecondaryText"
+            />
+
+        <TextView
+            android:id="@+id/IngredientAmounts5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="6dp"
+            android:text="5XX Oz"
+            android:textSize="18sp"
+            android:textColor="@color/colorSecondaryText"
+            />
+
+    </LinearLayout>
+
+    <!--    <Button
+            android:id="@+id/showSteps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Show Recipe Steps"
+            android:textSize="16sp"
+            android:background="@color/colorSecondary"
+            android:textColor="@color/colorSecondaryText"
+            android:onClick="showSteps"/>-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="6dp"
+        android:text="Instructions:"
+        android:textSize="20sp"
+        android:textColor="@color/colorSecondaryText"
+        />
+
+    <TextView
+        android:id="@+id/RecipeDirections"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="6dp"
+        android:text="Step 1:..."
+        android:textSize="18sp"
+        android:textColor="@color/colorSecondaryText"
+        />
+
+</LinearLayout>
